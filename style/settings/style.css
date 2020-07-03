@@ -1,0 +1,66 @@
+.toplevel_page_reaim-plugin #wpcontent {
+  background-color: #fff;
+  padding-right: 20px;
+}
+
+.reaim_logo {
+  margin-top: 50px;
+}
+
+.reaim_settings {
+  padding: 20px;
+  border: 1px solid rgba(59, 65, 94, 0.1);
+  margin-top: 20px;
+  box-shadow: 0 7px 14px 0 rgba(59, 65, 94, 0.1),
+    0 3px 6px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+
+.reaim_settings_title {
+  margin: 50px 0;
+}
+
+.reaim_settings_form {
+  padding: 20px;
+  border: 1px solid rgba(59, 65, 94, 0.1);
+  margin-top: 20px;
+  box-shadow: 0 7px 14px 0 rgba(59, 65, 94, 0.1),
+    0 3px 6px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+}
+
+.reaim_settings_form > p {
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.reaim_settings_form > div {
+  display: flex;
+  align-items: center;
+}
+
+.reaim_settings_form > div label {
+  font-size: 16px;
+  width: 10%;
+  font-weight: bold;
+}
+
+.reaim_settings_form > div input {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-left: 0;
+  width: 400px;
+}
+
+button[type="submit"] {
+  background-color: #db4951;
+  border: none;
+  margin-top: 15px;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
