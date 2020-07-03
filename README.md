@@ -1,1 +1,1 @@
-# ReAim Push plugin for WordPress
+# ReAim Push SDK for WordPress
