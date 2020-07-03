@@ -1,1 +1,1 @@
-# ReAim Push plugin for wordpress
+# ReAim Push plugin for WordPress
