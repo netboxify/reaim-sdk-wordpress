@@ -1,6 +1,6 @@
 <?php
 // ReAim Settings page UI
-function reaim_dashboard() {
+function reaim_push_dashboard() {
   ?>
     <img class="reaim_logo" src="<?php echo esc_url(REAIM_PLUGIN_URL."images/reaim.png") ?>" alt="">
     <div class="reaim_settings">
