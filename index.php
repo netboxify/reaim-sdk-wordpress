@@ -47,7 +47,9 @@ function reaim_push_script () {
       <script id="reaim-sw-script">
         window.REAIM_SW_PATH_GLOBAL = "<?php echo REAIM_PLUGIN_URL.'sw/sw.js.php';?>"
       </script>
-      <script src="https://cdn.reaim.me/js/install.min.js"></script>
+    <?php
+      wp_enqueue_script('reaim_push_install_script',  'https://cdn.reaim.me/js/install.min.js' , '', '0.1', false);
+    ?>
       <script>
         var push = new ReAimSDK(function() {
           // executed on Allow
